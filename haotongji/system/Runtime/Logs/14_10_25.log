@@ -1,0 +1,974 @@
+[ 2014-10-25T12:11:57+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001818s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002016s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006580s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2014-10-25T12:12:06+08:00 ] 127.0.0.1 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.007314s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001457s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2014-10-25T12:12:07+08:00 ] 127.0.0.1 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001152s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001807s ]
+
+[ 2014-10-25T12:12:11+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.014138s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001028s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2014-10-25T12:12:12+08:00 ] 127.0.0.1 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000672s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003336s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-10-25T12:12:15+08:00 ] 127.0.0.1 /admin.php/Setup/editpass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user D:\wwwphpStudy\WWW\system\Runtime\Cache\be26efd99bf21124a1e82c736115b6c2.php 第 39 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010952s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2014-10-25T12:12:18+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.007745s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2014-10-25T12:12:19+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.008060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000641s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-10-25T12:12:20+08:00 ] 127.0.0.1 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.008167s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013626s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000617s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000930s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-10-25T12:12:22+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007917s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2014-10-25T12:12:24+08:00 ] 127.0.0.1 /admin.php/Setup/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001039s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-10-25T12:12:38+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.007652s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013089s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-10-25T12:12:39+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.007836s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012156s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2014-10-25T12:12:40+08:00 ] 127.0.0.1 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.016465s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000887s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000661s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-10-25T12:12:41+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.007680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2014-10-25T12:12:43+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.007816s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013191s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000627s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-10-25T12:12:44+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007664s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000174s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000682s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2014-10-25T12:26:12+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.007728s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2014-10-25T12:26:13+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.008104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001386s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001778s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2014-10-25T12:26:13+08:00 ] 127.0.0.1 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.007921s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001770s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006733s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2014-10-25T12:26:14+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007805s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006846s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2014-10-25T12:30:30+08:00 ] 127.0.0.1 /admin.php/Setup/editpass.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: user D:\wwwphpStudy\WWW\system\Runtime\Cache\be26efd99bf21124a1e82c736115b6c2.php 第 39 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2014-10-25T12:30:35+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007429s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001468s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001778s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2014-10-25T12:30:36+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.011564s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021313s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001779s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001195s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002361s ]
+
+[ 2014-10-25T12:30:37+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.008345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001155s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2014-10-25T12:30:37+08:00 ] 127.0.0.1 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002840s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.009587s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023344s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001277s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006455s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2014-10-25T12:36:11+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001455s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001154s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2014-10-25T12:36:16+08:00 ] 127.0.0.1 /admin.php/Index/dologin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `tj_admin` [ RunTime:0.042925s ]
+SQL: SELECT * FROM `tj_admin` WHERE ( `username` = 'admin' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014749s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001629s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2014-10-25T12:36:17+08:00 ] 127.0.0.1 /admin.php/Main/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2014-10-25T12:36:19+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002592s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.008691s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.001193s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002270s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007533s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001744s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2014-10-25T12:36:20+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007434s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001694s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006033s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2014-10-25T12:36:20+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.008437s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006375s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001740s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2014-10-25T12:36:23+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.011117s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001638s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002176s ]
+
+[ 2014-10-25T12:36:24+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.008572s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001664s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001653s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002069s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2014-10-25T12:36:25+08:00 ] 127.0.0.1 /admin.php/Visit/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `tj_qqdata` [ RunTime:0.009408s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_qqdata` LIMIT 1   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\VisitAction.class.php 第 16 行.
+SQL: SELECT * FROM `tj_qqdata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001830s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001160s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2014-10-25T12:36:27+08:00 ] 127.0.0.1 /admin.php/Mail/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `tj_maildata` [ RunTime:0.007297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_maildata` LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT * FROM `tj_maildata` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005904s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2014-10-25T12:36:27+08:00 ] 127.0.0.1 /admin.php/Site/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [8] Undefined index:  uid D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tj_sites` [ RunTime:0.006957s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 7 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_sites` LIMIT 1   [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\SiteAction.class.php 第 11 行.
+SQL: SELECT * FROM `tj_sites` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2014-10-25T12:36:28+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007119s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2014-10-25T12:36:33+08:00 ] 127.0.0.1 /admin.php/User/lists.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `tj_members` [ RunTime:0.007423s ]
+NOTIC: [8] Undefined index:  username D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 5 行.
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tj_members` LIMIT 1   [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: map D:\wwwphpStudy\WWW\system\Lib\Action\UserAction.class.php 第 13 行.
+SQL: SELECT * FROM `tj_members` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2014-10-25T12:38:22+08:00 ] 127.0.0.1 /admin.php/Index/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 3 行.
+NOTIC: [8] Undefined variable: cfg_sitetitle D:\wwwphpStudy\WWW\system\Runtime\Cache\2847c01a8a56d66ad64959722b2d21ab.php 第 11 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001950s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002017s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2014-10-25T12:38:23+08:00 ] 127.0.0.1 /admin.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006260s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001995s ]
+
